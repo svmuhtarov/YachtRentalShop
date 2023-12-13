@@ -1,8 +1,13 @@
-# React + Vite
+# Yacht Shop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is Yach Auction Shop!
 
-Currently, two official plugins are available:
+You can create offer and as owner you can modify detail of yacht. 
+Onwer can choose amount to stop auction, and can see bidder list, and last bidder.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Bidder cannot offer little money than last offer. If offer less money system provide error message. 
+
+
+
+
+The project use practice server for database. 
