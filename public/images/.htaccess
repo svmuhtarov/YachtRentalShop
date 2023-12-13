@@ -1,0 +1,3 @@
+Options -Indexes
+IndexIgnore *.zip *.jpg *.gif *.js 
+
