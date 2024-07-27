@@ -1,0 +1,26 @@
+{
+    "52ab2a4f-c274-412d-8a1b-3d772e8e73fa": {
+        "title": "EVE Online",
+        "category": "Space Simulator",
+        "maxLevel": "12",
+        "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8500/header.jpg?t=1719480994",
+        "summary": "EVE Online is a free-to-play community driven space MMO where players can choose their own path from countless different options. Experience space exploration, immense PvP and PvE battles, mining, industry and a thriving player economy in an ever-expanding sandbox.",
+        "_id": "52ab2a4f-c274-412d-8a1b-3d772e8e73fa"
+    },
+    "3df212d8-eacd-4a35-9a12-f8f95cde6783": {
+        "title": "Satisfactory",
+        "category": "Arcade Shooter",
+        "maxLevel": "10",
+        "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/526870/header.jpg?t=1718088881",
+        "summary": "Satisfactory is a first-person open-world factory building game with a dash of exploration and combat. Play alone or with friends, explore an alien planet, create multi-story factories, and enter conveyor belt heaven!",
+        "_id": "3df212d8-eacd-4a35-9a12-f8f95cde6783"
+    },
+    "de3372ba-390f-46d3-9118-0dd07c8f8146": {
+        "title": "World of Warcraft",
+        "category": "MMO RPG",
+        "maxLevel": "9",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/65/World_of_Warcraft.png",
+        "summary": "Miniature Heroes. Colossal Fun. Engage in a dazzling new sensation that's sweeping the inns and taverns across the land with this action-packed mobile strategy ...",
+        "_id": "de3372ba-390f-46d3-9118-0dd07c8f8146"
+    }
+}
