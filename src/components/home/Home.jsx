@@ -9,7 +9,7 @@ export const Home = () => {
 
   </div>	
 
-  
+{/*   
   <div className="slider">
 		<div className="flexslider">
 	    <ul className="slides">
@@ -30,46 +30,41 @@ export const Home = () => {
            
 	    </ul>
 	  </div>
-   </div>
+   </div> */}
    
-   
-   <div className="main_content">
-
-   <div className="section_one_three">
-       <h2 className="centered_title"></h2> 
-        <div><a href="#" title=""><img src="images/banner2.jpg" alt=""  title="" /></a></div>
-        <h2 className="centered_title"></h2>
-         <div><a href="#" title=""><img src="images/banner5.jpg" alt="" title="" /></a></div>
+   <section-main>
+            <div className="small-items">
+                <h2 className="centered_title"></h2> 
+                <img src="images/banner2.jpg" alt=""  title="" />
         
-        </div>
-   	
+                <h2 className="centered_title"></h2> 
+                <img src="images/banner5.jpg" alt="" title="" />
+            </div>
 
-   		<div className="section_one_three">
-        <h2 className="centered_title">Контакт</h2>
-        <div className="roundimg"><a href="mailto:svetlomir@muhtarov.eu" title=""><img src="images/icon_contact.png" alt="" title="" /></a></div>
-        <p className="centered_text">
-You can contact me at: svetlomir@muhtarov.eu
-        </p>
-     {/* <!--   <a href="contacts.html" className="more">Към формата</a> --> */}
-        </div>
-          
-          
-          <div className="section_one_three">
-       <h2 className="centered_title"></h2> 
-        <div><a href="#" title=""><img src="images/banner3.jpg" alt=""  title="" /></a></div>
-        <h2 className="centered_title"></h2>
-         <div><a href="#" title=""><img src="images/banner4.jpg" alt="" title="" /></a></div>
-        
-        </div>
-   </div>
+            <div className="small-items-midle">
+                <h2 className="centered_title">Контакт</h2>
+                <div className="roundimg"><a href="#mailto:svetlomir@muhtarov.eu" title=""><img src="images/icon_contact.png" alt="" title="" /></a></div>
+                <p className="centered_text">В случай, че забележите грешка или при желание за допълнителни тестове. Пишете ми на svetlomir@muhtarov.eu</p>
+            </div>
+
+            <div className="small-items">
+                <h2 className="centered_title"></h2> 
+                <img src="images/banner3.jpg" alt=""  title="" />
+
+                <h2 className="centered_title"></h2>
+                <img src="images/banner4.jpg" alt="" title="" />
+            </div>
+        </section-main>
+  
    
    
-   <div className="clear"></div> 
+  
   
    
 </div>
  
 
     )
-
 }
+
+export default Home;
