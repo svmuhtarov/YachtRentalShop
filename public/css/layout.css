@@ -1,0 +1,192 @@
+body {
+    background-color:#f4efef;
+}
+
+#root {
+    /* max-width: 870px; */
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 1.5em;
+    
+    display:flex;
+    flex-direction: column;
+  
+   
+}
+
+.top_slogan { 
+    text-align:center;
+    color:#6b6767; 
+    font-size:2.5em; 
+    padding:1em 3em; 
+    font-style:italic; 
+    line-height:1.5em;
+}
+
+.top_slogan a {
+    text-decoration: none;
+    color:#6b6767; 
+}
+
+
+/* Slider */
+.slider { width:100%;
+     margin:auto; 
+     clear:both;
+    }
+
+.flex-container a:active,
+.flexslider a:active {
+    outline: none;
+}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+    margin: 0; 
+    padding: 0; 
+    list-style: none;
+} 
+.flexslider {
+    width: 100%; 
+    margin: 0; 
+    padding: 0;
+}
+.flexslider .slides > li {display: none;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {
+    max-width: 100%;
+    aspect-ratio:23/9 ;
+    display: block;}
+.flex-pauseplay span {text-transform: capitalize;}
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
+html[xmlns] .slides {display: block;} 
+* html .slides {height: 1%;}
+.no-js .slides > li:first-child {display: block;}
+.flexslider {position: relative; zoom: 1;}
+.flexslider .slides {zoom: 1;}
+.flexslider .slides > li {position: relative;}
+.flex-container {zoom: 1; position: relative;}
+.flex-direction-nav li a {
+    width:65px; 
+    height:37px; 
+    margin:0; 
+    display: block; 
+    position: absolute; 
+    top:0px; 
+    cursor: pointer; 
+    text-indent: -9999px;}
+.flex-direction-nav li a.next {
+    background:url(../images/next.png) no-repeat center; 
+    right:0px;}
+.flex-direction-nav li a.prev {background:url(../images/prev.png) no-repeat center;right:67px;}
+.flex-direction-nav li a.next:hover {background:url(../images/next_a.png) no-repeat center;}
+.flex-direction-nav li a.prev:hover {background:url(../images/prev_a.png) no-repeat center;}
+.flex-direction-nav li a.disabled {opacity: .3; filter:alpha(opacity=30); cursor: default;}
+.flex-control-nav {width: 100%; position: absolute; bottom: -30px; text-align: center;}
+.flex-control-nav li {margin: 0 0 0 5px; display: inline-block; zoom: 1; display: inline;}
+.flex-control-nav li:first-child {margin: 0;}
+.flex-control-nav li a {width: 13px; height: 13px; display: block; cursor: pointer; 
+    text-indent: -9999px;
+}
+.flex-control-nav li a:hover {background-position: 0 -13px;}
+.flex-control-nav li a.active {background-position: 0 -26px; cursor: default;}
+.flex-caption{ 
+    position: absolute;
+    left:0px;
+    top:0em; 
+    width:90%;
+    text-align:center; 
+    font-size:1em; 
+    padding: 4.4em;
+    background-color: rgba(31, 31, 30, 0.2);
+    color:aliceblue;}
+.flex-caption h2{ 
+    font-size:1.5em; 
+    color:aliceblue} 
+.flex-caption p{ 
+    text-align:center;
+
+    padding:0 5em;}
+.flex-caption a{ 
+       text-decoration: none;
+       color: aliceblue;
+}
+a.slider_button{
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	background-color: #66CCFF;
+	color:aliceblue;
+	font-size: 14px;
+	padding: 8px 12px;
+	margin: 20px 0 0 0;
+	display: inline-block;
+}
+
+
+
+/* main */
+
+section-main {
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    gap:1em;
+
+}
+
+
+
+div.small-items img {
+    width: 23em;
+}
+
+.roundimg a img {
+    width: 6em;
+    margin:auto;
+     display:block;
+}
+
+.roundimg{
+    width:12em;
+    height:12em;
+    display:block;
+    border-radius:50%;
+    margin:auto;
+    background-color:#e8e8e8;
+    text-align:center; 
+    padding:40px 0 0 0;}
+
+h2.centered_title{ text-align:center;
+color: #6b6767;}
+p.centered_text{ 
+    padding:10px 20px;
+    text-align:center;
+    color: #6b6767;
+    font-size: 0.8em;
+}
+
+
+
+/* Catalog */
+
+section.catalog {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:5em;
+    padding-bottom: 5em;
+
+}
+
+section.catalog div.small-items img {
+    width: 30em;
+    aspect-ratio: 16/9;
+}
+
+
+
+
